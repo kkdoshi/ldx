@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Categories Functionality" skipped="0" tests="2" time="15.37" timestamp="2022-02-24T10:17:37.758Z[Europe/London]"><testcase name="I should be able to create a new category successfully"/><testcase name="I should be able to read the newly created category successfully"><failure message="&#10;Expected: map containing [ANYTHING-&gt;&quot;TeamPostman&quot;]&#10;     but: was a java.lang.String (&quot;eamPostman&quot;)" type="java.lang.AssertionError">
+Expected: map containing [ANYTHING-&gt;"TeamPostman"]
+     but: was a java.lang.String ("eamPostman")</failure><system-err>
+Expected: map containing [ANYTHING-&gt;"TeamPostman"]
+     but: was a java.lang.String ("eamPostman")&#13;
+com.lumiraDX.cucumber.steps.CategoriesStepDefs.iVerifyTheNewCategoryHasBeenCreatedSuccessfully(CategoriesStepDefs.java:87)&#13;
+✽.Then I verify the new category has been created successfully(categories.feature:11)&#13;
+</system-err></testcase></testsuite>
